@@ -38,9 +38,6 @@
     "Futaleufú": {
       "Correos de Chile": 8806
     },
-    "Hornopiren": {
-      "Chilexpress": 6355
-    },
     "Hualaihué": {
       "Chilexpress": 6355,
       "Correos de Chile": 8913
@@ -905,6 +902,9 @@
     },
     "La Junta": {
       "Chilexpress": 9764
+    },  
+    "Hornopiren": {
+      "Chilexpress": 6355
     },
     "Puerto Chacabuco": {
       "Chilexpress": 9211,
@@ -1074,7 +1074,7 @@
     },
     "Lontue": {
       "Chilexpress": 6378
-    }
+    },
     "Maule": {
       "Chilexpress": 6378,
       "Correos de Chile": 6938
@@ -1325,5 +1325,5 @@
       "Chilexpress": 5278,
       "Correos de Chile": 5974
     }
-  },
+  }
 }
