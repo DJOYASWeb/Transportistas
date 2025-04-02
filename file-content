@@ -38,6 +38,9 @@
     "Futaleufú": {
       "Correos de Chile": 8806
     },
+    "Hornopiren": {
+      "Chilexpress": 6355
+    },
     "Hualaihué": {
       "Chilexpress": 6355,
       "Correos de Chile": 8913
@@ -900,6 +903,9 @@
     "Lago Verde": {
       "Correos de Chile": 9520
     },
+    "La Junta": {
+      "Chilexpress": 9764
+    },
     "Puerto Chacabuco": {
       "Chilexpress": 9211,
       "Correos de Chile": 8806
@@ -1066,6 +1072,9 @@
     "Longaví": {
       "Chilexpress": 6378
     },
+    "Lontue": {
+      "Chilexpress": 6378
+    }
     "Maule": {
       "Chilexpress": 6378,
       "Correos de Chile": 6938
@@ -1317,15 +1326,4 @@
       "Correos de Chile": 5974
     }
   },
-  "NaN": {
-    "Hornopiren": {
-      "Chilexpress": 6355
-    },
-    "La Junta": {
-      "Chilexpress": 9764
-    },
-    "Lontue": {
-      "Chilexpress": 6378
-    }
-  }
 }
