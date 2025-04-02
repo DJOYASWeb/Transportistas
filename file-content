@@ -1,4209 +1,1331 @@
-[
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Achao",
-    "costo_envio":6111
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Algarrobo",
-    "costo_envio":7961
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Algarrobo",
-    "costo_envio":8937
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Alhué",
-    "costo_envio":8913
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Alto Biobío",
-    "costo_envio":6218
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Alto Biobío",
-    "costo_envio":8925
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Atacama",
-    "comuna":"Alto del Carmen",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Tarapacá",
-    "comuna":"Alto Hospicio",
-    "costo_envio":13572
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Tarapacá",
-    "comuna":"Alto Hospicio",
-    "costo_envio":16505
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Ancud",
-    "costo_envio":7092
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Coquimbo",
-    "comuna":"Andacollo",
-    "costo_envio":9306
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Coquimbo",
-    "comuna":"Andacollo",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Angol",
-    "costo_envio":6878
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Angol",
-    "costo_envio":5950
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Antofagasta",
-    "comuna":"Antofagasta",
-    "costo_envio":10198
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Antofagasta",
-    "comuna":"Antofagasta",
-    "costo_envio":9639
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Antuco",
-    "costo_envio":6218
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Antuco",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Arauco",
-    "costo_envio":6218
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Arauco",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Arica y Parinacota",
-    "comuna":"Arica",
-    "costo_envio":12430
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Arica y Parinacota",
-    "comuna":"Arica",
-    "costo_envio":10829
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Aysén del General Carlos Ibáñez del Campo",
-    "comuna":"Aysén",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Aysén del General Carlos Ibáñez del Campo",
-    "comuna":"Aysén",
-    "costo_envio":8806
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Buin",
-    "costo_envio":9300
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Buin",
-    "costo_envio":7140
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Ñuble",
-    "comuna":"Bulnes",
-    "costo_envio":5783
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Ñuble",
-    "comuna":"Bulnes",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Cabildo",
-    "costo_envio":7069
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Cabildo",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Magallanes y de la Antártica Chilena",
-    "comuna":"Cabo de Hornos",
-    "costo_envio":10567
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Cabrero",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Cabrero",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Antofagasta",
-    "comuna":"Calama",
-    "costo_envio":12120
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Antofagasta",
-    "comuna":"Calama",
-    "costo_envio":10948
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Calbuco",
-    "costo_envio":6111
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Atacama",
-    "comuna":"Caldera",
-    "costo_envio":8895
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Atacama",
-    "comuna":"Caldera",
-    "costo_envio":8806
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Calera de Tango",
-    "costo_envio":9300
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Calera de Tango",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Calle Larga",
-    "costo_envio":7961
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Calle Larga",
-    "costo_envio":7449
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Arica y Parinacota",
-    "comuna":"Camarones",
-    "costo_envio":13756
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Coquimbo",
-    "comuna":"Canela",
-    "costo_envio":9306
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Cañete",
-    "costo_envio":6831
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Carahue",
-    "costo_envio":6878
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Carahue",
-    "costo_envio":6224
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Cartagena",
-    "costo_envio":7961
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Cartagena",
-    "costo_envio":7140
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Casablanca",
-    "costo_envio":7949
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Casablanca",
-    "costo_envio":8937
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Castro",
-    "costo_envio":7092
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Lagos",
-    "comuna":"Castro",
-    "costo_envio":7545
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Catemu",
-    "costo_envio":7069
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Cauquenes",
-    "costo_envio":7217
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Cerrillos",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Cerrillos",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Cerro Navia",
-    "costo_envio":7854
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Cerro Navia",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Chaitén",
-    "costo_envio":8199
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Lagos",
-    "comuna":"Chaitén",
-    "costo_envio":7545
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Chanco",
-    "costo_envio":7217
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Atacama",
-    "comuna":"Chañaral",
-    "costo_envio":8895
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Atacama",
-    "comuna":"Chañaral",
-    "costo_envio":8092
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Chépica",
-    "costo_envio":6575
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Chiguayante",
-    "costo_envio":5712
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Aysén del General Carlos Ibáñez del Campo",
-    "comuna":"Chile Chico",
-    "costo_envio":9669
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Aysén del General Carlos Ibáñez del Campo",
-    "comuna":"Chile Chico",
-    "costo_envio":8806
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Ñuble",
-    "comuna":"Chillán",
-    "costo_envio":5658
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Ñuble",
-    "comuna":"Chillán",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Ñuble",
-    "comuna":"Chillán Viejo",
-    "costo_envio":5658
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Ñuble",
-    "comuna":"Chillán Viejo",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Chimbarongo",
-    "costo_envio":7402
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Chimbarongo",
-    "costo_envio":7830
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Cholchol",
-    "costo_envio":4915
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Cholchol",
-    "costo_envio":6224
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Chonchi",
-    "costo_envio":5777
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Aysén del General Carlos Ibáñez del Campo",
-    "comuna":"Cisnes",
-    "costo_envio":10710
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Ñuble",
-    "comuna":"Cobquecura",
-    "costo_envio":7140
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Cochamó",
-    "costo_envio":5700
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Aysén del General Carlos Ibáñez del Campo",
-    "comuna":"Cochrane",
-    "costo_envio":9764
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Aysén del General Carlos Ibáñez del Campo",
-    "comuna":"Cochrane",
-    "costo_envio":8806
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Codegua",
-    "costo_envio":6265
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Ñuble",
-    "comuna":"Coelemu",
-    "costo_envio":5783
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Ñuble",
-    "comuna":"Coihueco",
-    "costo_envio":5968
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Ñuble",
-    "comuna":"Coihueco",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Coínco",
-    "costo_envio":7402
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Colbún",
-    "costo_envio":6747
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Colbún",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Tarapacá",
-    "comuna":"Colchane",
-    "costo_envio":13756
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Colina",
-    "costo_envio":7854
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Colina",
-    "costo_envio":6069
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Collipulli",
-    "costo_envio":6878
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Collipulli",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Coltauco",
-    "costo_envio":7402
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Coltauco",
-    "costo_envio":7830
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Coquimbo",
-    "comuna":"Combarbalá",
-    "costo_envio":8782
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Coquimbo",
-    "comuna":"Combarbalá",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Concepción",
-    "costo_envio":5712
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Conchalí",
-    "costo_envio":7854
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Conchalí",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Concón",
-    "costo_envio":7961
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Concón",
-    "costo_envio":7449
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Constitución",
-    "costo_envio":6378
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Constitución",
-    "costo_envio":6783
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Contulmo",
-    "costo_envio":5349
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Atacama",
-    "comuna":"Copiapó",
-    "costo_envio":7955
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Atacama",
-    "comuna":"Copiapó",
-    "costo_envio":8342
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Coquimbo",
-    "comuna":"Coquimbo",
-    "costo_envio":7854
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Coquimbo",
-    "comuna":"Coquimbo",
-    "costo_envio":6783
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Coronel",
-    "costo_envio":6831
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Coronel",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Ríos",
-    "comuna":"Corral",
-    "costo_envio":7676
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Aysén del General Carlos Ibáñez del Campo",
-    "comuna":"Coyhaique",
-    "costo_envio":7777
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Aysén del General Carlos Ibáñez del Campo",
-    "comuna":"Coyhaique",
-    "costo_envio":7259
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Cunco",
-    "costo_envio":5783
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Cunco",
-    "costo_envio":6426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Curacautín",
-    "costo_envio":5783
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Curacautín",
-    "costo_envio":6426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Curacaví",
-    "costo_envio":7961
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Curacaví",
-    "costo_envio":7676
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Curaco de Vélez",
-    "costo_envio":6111
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Curanilahue",
-    "costo_envio":6831
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Curanilahue",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Curarrehue",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Curepto",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Curicó",
-    "costo_envio":5415
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Curicó",
-    "costo_envio":6902
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Dalcahue",
-    "costo_envio":6111
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Atacama",
-    "comuna":"Diego de Almagro",
-    "costo_envio":8282
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Doñihue",
-    "costo_envio":7402
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Doñihue",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"El Bosque",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"El Bosque",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Ñuble",
-    "comuna":"El Carmen",
-    "costo_envio":6111
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Ñuble",
-    "comuna":"El Carmen",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"El Monte",
-    "costo_envio":8705
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"El Monte",
-    "costo_envio":8913
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"El Quisco",
-    "costo_envio":7961
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"El Quisco",
-    "costo_envio":8937
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"El Tabo",
-    "costo_envio":7961
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"El Tabo",
-    "costo_envio":8937
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Empedrado",
-    "costo_envio":7217
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Empedrado",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Ercilla",
-    "costo_envio":6224
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Estación Central",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Estación Central",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Florida",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Florida",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Freire",
-    "costo_envio":6878
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Atacama",
-    "comuna":"Freirina",
-    "costo_envio":9425
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Atacama",
-    "comuna":"Freirina",
-    "costo_envio":13756
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Fresia",
-    "costo_envio":6111
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Frutillar",
-    "costo_envio":6111
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Lagos",
-    "comuna":"Futaleufú",
-    "costo_envio":8806
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Ríos",
-    "comuna":"Futrono",
-    "costo_envio":6605
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Ríos",
-    "comuna":"Futrono",
-    "costo_envio":7164
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Galvarino",
-    "costo_envio":5783
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Galvarino",
-    "costo_envio":6224
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Arica y Parinacota",
-    "comuna":"General Lagos",
-    "costo_envio":10115
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Gorbea",
-    "costo_envio":6878
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Gorbea",
-    "costo_envio":6224
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Graneros",
-    "costo_envio":7402
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Graneros",
-    "costo_envio":6521
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Aysén del General Carlos Ibáñez del Campo",
-    "comuna":"Guaitecas",
-    "costo_envio":13554
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Hijuelas",
-    "costo_envio":7069
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Hijuelas",
-    "costo_envio":8937
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":null,
-    "comuna":"Hornopiren",
-    "costo_envio":6355
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Hualaihué",
-    "costo_envio":6355
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Lagos",
-    "comuna":"Hualaihué",
-    "costo_envio":8913
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Hualañé",
-    "costo_envio":6355
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Hualañé",
-    "costo_envio":6783
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Hualpén",
-    "costo_envio":5789
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Hualpén",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Hualqui",
-    "costo_envio":6831
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Hualqui",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Tarapacá",
-    "comuna":"Huara",
-    "costo_envio":13756
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Atacama",
-    "comuna":"Huasco",
-    "costo_envio":9657
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Atacama",
-    "comuna":"Huasco",
-    "costo_envio":13756
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Huechuraba",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Huechuraba",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Coquimbo",
-    "comuna":"Illapel",
-    "costo_envio":9306
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Coquimbo",
-    "comuna":"Illapel",
-    "costo_envio":7854
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Independencia",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Independencia",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Tarapacá",
-    "comuna":"Iquique",
-    "costo_envio":11406
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Tarapacá",
-    "comuna":"Iquique",
-    "costo_envio":10710
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Isla de Maipo",
-    "costo_envio":9300
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Isla de Maipo",
-    "costo_envio":8235
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Juan Fernández",
-    "costo_envio":21134
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"La Calera",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"La Cisterna",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"La Cisterna",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"La Cruz",
-    "costo_envio":7961
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"La Cruz",
-    "costo_envio":8937
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"La Estrella",
-    "costo_envio":5861
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"La Estrella",
-    "costo_envio":8806
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"La Florida",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"La Florida",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"La Granja",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"La Granja",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Coquimbo",
-    "comuna":"La Higuera",
-    "costo_envio":8235
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":null,
-    "comuna":"La Junta",
-    "costo_envio":9764
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"La Ligua",
-    "costo_envio":7432
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"La Ligua",
-    "costo_envio":8937
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"La Pintana",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"La Pintana",
-    "costo_envio":6069
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"La Reina",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"La Reina",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Coquimbo",
-    "comuna":"La Serena",
-    "costo_envio":7854
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Coquimbo",
-    "comuna":"La Serena",
-    "costo_envio":7140
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Ríos",
-    "comuna":"La Unión",
-    "costo_envio":6759
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Ríos",
-    "comuna":"La Unión",
-    "costo_envio":6402
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Ríos",
-    "comuna":"Lago Ranco",
-    "costo_envio":5462
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Aysén del General Carlos Ibáñez del Campo",
-    "comuna":"Lago Verde",
-    "costo_envio":9520
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Laja",
-    "costo_envio":9800
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Laja",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Lampa",
-    "costo_envio":9300
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Lampa",
-    "costo_envio":8913
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Ríos",
-    "comuna":"Lanco",
-    "costo_envio":6605
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Ríos",
-    "comuna":"Lanco",
-    "costo_envio":6402
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Las Cabras",
-    "costo_envio":6575
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Las Cabras",
-    "costo_envio":7830
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Las Condes",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Las Condes",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Lautaro",
-    "costo_envio":6878
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Lautaro",
-    "costo_envio":6224
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Lebu",
-    "costo_envio":6218
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Lebu",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Licantén",
-    "costo_envio":6378
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Licantén",
-    "costo_envio":7735
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Limache",
-    "costo_envio":7961
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Limache",
-    "costo_envio":7259
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Linares",
-    "costo_envio":5415
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Linares",
-    "costo_envio":5950
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Litueche",
-    "costo_envio":6914
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Litueche",
-    "costo_envio":8092
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Llaillay",
-    "costo_envio":7432
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Llaillay",
-    "costo_envio":8937
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Llanquihue",
-    "costo_envio":6111
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Lo Barnechea",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Lo Barnechea",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Lo Espejo",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Lo Espejo",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Lo Prado",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Lo Prado",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Lolol",
-    "costo_envio":6575
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Lolol",
-    "costo_envio":8092
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Loncoche",
-    "costo_envio":5968
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Loncoche",
-    "costo_envio":6402
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Longaví",
-    "costo_envio":6378
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Lonquimay",
-    "costo_envio":5349
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Lonquimay",
-    "costo_envio":7676
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":null,
-    "comuna":"Lontue",
-    "costo_envio":6378
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Los Álamos",
-    "costo_envio":6218
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Los Álamos",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Los Andes",
-    "costo_envio":7961
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Los Andes",
-    "costo_envio":6069
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Los Ángeles",
-    "costo_envio":5712
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Los Ángeles",
-    "costo_envio":5831
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Ríos",
-    "comuna":"Los Lagos",
-    "costo_envio":6605
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Ríos",
-    "comuna":"Los Lagos",
-    "costo_envio":7164
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Los Muermos",
-    "costo_envio":6111
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Los Sauces",
-    "costo_envio":6402
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Coquimbo",
-    "comuna":"Los Vilos",
-    "costo_envio":9306
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Coquimbo",
-    "comuna":"Los Vilos",
-    "costo_envio":7854
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Lota",
-    "costo_envio":6831
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Lota",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Lumaco",
-    "costo_envio":6878
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Lumaco",
-    "costo_envio":6402
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Machalí",
-    "costo_envio":7402
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Machalí",
-    "costo_envio":7830
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Macul",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Macul",
-    "costo_envio":6069
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Ríos",
-    "comuna":"Máfil",
-    "costo_envio":6605
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Ríos",
-    "comuna":"Máfil",
-    "costo_envio":6402
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Maipú",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Maipú",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Malloa",
-    "costo_envio":7402
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Malloa",
-    "costo_envio":6521
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Marchigüe",
-    "costo_envio":7402
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Marchigüe",
-    "costo_envio":6521
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Antofagasta",
-    "comuna":"María Elena",
-    "costo_envio":11424
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Antofagasta",
-    "comuna":"María Elena",
-    "costo_envio":11757
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"María Pinto",
-    "costo_envio":8913
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Ríos",
-    "comuna":"Mariquina",
-    "costo_envio":6605
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Ríos",
-    "comuna":"Mariquina",
-    "costo_envio":6402
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Maule",
-    "costo_envio":6378
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Maule",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Maullín",
-    "costo_envio":5777
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Antofagasta",
-    "comuna":"Mejillones",
-    "costo_envio":12120
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Antofagasta",
-    "comuna":"Mejillones",
-    "costo_envio":10948
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Melipeuco",
-    "costo_envio":6224
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Melipilla",
-    "costo_envio":8455
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Melipilla",
-    "costo_envio":8913
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Molina",
-    "costo_envio":7217
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Molina",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Coquimbo",
-    "comuna":"Monte Patria",
-    "costo_envio":9306
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Coquimbo",
-    "comuna":"Monte Patria",
-    "costo_envio":8235
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Mulchén",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Mulchén",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Nacimiento",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Nacimiento",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Nancagua",
-    "costo_envio":7015
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Nancagua",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Magallanes y de la Antártica Chilena",
-    "comuna":"Natales",
-    "costo_envio":8675
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Magallanes y de la Antártica Chilena",
-    "comuna":"Natales",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Navidad",
-    "costo_envio":7402
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Navidad",
-    "costo_envio":6521
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Negrete",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Negrete",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Ñuble",
-    "comuna":"Ninhue",
-    "costo_envio":5783
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Ñuble",
-    "comuna":"Ninhue",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Nogales",
-    "costo_envio":7069
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Nogales",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Nueva Imperial",
-    "costo_envio":6878
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Nueva Imperial",
-    "costo_envio":6224
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Ñuble",
-    "comuna":"Ñiquén",
-    "costo_envio":6533
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Ñuñoa",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Ñuñoa",
-    "costo_envio":6069
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Olivar",
-    "costo_envio":7402
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Olivar",
-    "costo_envio":6307
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Antofagasta",
-    "comuna":"Ollagüe",
-    "costo_envio":11757
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Olmué",
-    "costo_envio":7961
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Olmué",
-    "costo_envio":7449
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Osorno",
-    "costo_envio":5700
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Lagos",
-    "comuna":"Osorno",
-    "costo_envio":4998
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Coquimbo",
-    "comuna":"Ovalle",
-    "costo_envio":7854
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Coquimbo",
-    "comuna":"Ovalle",
-    "costo_envio":7973
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Padre Hurtado",
-    "costo_envio":7854
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Padre Hurtado",
-    "costo_envio":6069
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Padre Las Casas",
-    "costo_envio":4635
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Coquimbo",
-    "comuna":"Paihuano",
-    "costo_envio":9306
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Coquimbo",
-    "comuna":"Paihuano",
-    "costo_envio":8342
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Ríos",
-    "comuna":"Paillaco",
-    "costo_envio":6605
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Ríos",
-    "comuna":"Paillaco",
-    "costo_envio":5950
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Paine",
-    "costo_envio":9300
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Paine",
-    "costo_envio":8913
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Lagos",
-    "comuna":"Palena",
-    "costo_envio":6402
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Palmilla",
-    "costo_envio":7402
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Palmilla",
-    "costo_envio":6521
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Ríos",
-    "comuna":"Panguipulli",
-    "costo_envio":6605
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Ríos",
-    "comuna":"Panguipulli",
-    "costo_envio":5974
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Panquehue",
-    "costo_envio":6289
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Panquehue",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Papudo",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Papudo",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Paredones",
-    "costo_envio":7402
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Paredones",
-    "costo_envio":6521
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Parral",
-    "costo_envio":7217
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Parral",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Pedro Aguirre Cerda",
-    "costo_envio":7854
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Pedro Aguirre Cerda",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Pelarco",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Pelluhue",
-    "costo_envio":7217
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Pelluhue",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Ñuble",
-    "comuna":"Pemuco",
-    "costo_envio":6378
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Ñuble",
-    "comuna":"Pemuco",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Pencahue",
-    "costo_envio":7217
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Pencahue",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Penco",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Penco",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Peñaflor",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Peñaflor",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Peñalolén",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Peñalolén",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Peralillo",
-    "costo_envio":7402
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Peralillo",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Perquenco",
-    "costo_envio":6224
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Petorca",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Peumo",
-    "costo_envio":6545
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Peumo",
-    "costo_envio":6521
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Tarapacá",
-    "comuna":"Pica",
-    "costo_envio":13756
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Pichidegua",
-    "costo_envio":7402
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Pichidegua",
-    "costo_envio":6426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Pichilemu",
-    "costo_envio":6914
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Pichilemu",
-    "costo_envio":6521
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Ñuble",
-    "comuna":"Pinto",
-    "costo_envio":5968
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Ñuble",
-    "comuna":"Pinto",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Pirque",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Pirque",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Pitrufquén",
-    "costo_envio":6878
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Placilla",
-    "costo_envio":7015
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Placilla",
-    "costo_envio":7830
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Ñuble",
-    "comuna":"Portezuelo",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Magallanes y de la Antártica Chilena",
-    "comuna":"Porvenir",
-    "costo_envio":8675
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Tarapacá",
-    "comuna":"Pozo Almonte",
-    "costo_envio":13602
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Tarapacá",
-    "comuna":"Pozo Almonte",
-    "costo_envio":13756
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Magallanes y de la Antártica Chilena",
-    "comuna":"Primavera",
-    "costo_envio":8806
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Providencia",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Providencia",
-    "costo_envio":6069
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Puchuncaví",
-    "costo_envio":7961
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Puchuncaví",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Pucón",
-    "costo_envio":6206
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Pucón",
-    "costo_envio":6224
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Pudahuel",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Pudahuel",
-    "costo_envio":6069
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Puente Alto",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Puente Alto",
-    "costo_envio":6069
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Aysén del General Carlos Ibáñez del Campo",
-    "comuna":"Puerto Chacabuco",
-    "costo_envio":9211
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Aysén del General Carlos Ibáñez del Campo",
-    "comuna":"Puerto Chacabuco",
-    "costo_envio":8806
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Aysén del General Carlos Ibáñez del Campo",
-    "comuna":"Puerto Cisnes",
-    "costo_envio":9127
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Aysén del General Carlos Ibáñez del Campo",
-    "comuna":"Puerto Cisnes",
-    "costo_envio":8806
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Puerto Montt",
-    "costo_envio":5444
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Lagos",
-    "comuna":"Puerto Montt",
-    "costo_envio":5474
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Puerto Octay",
-    "costo_envio":6563
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Lagos",
-    "comuna":"Puerto Octay",
-    "costo_envio":6402
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Puerto Varas",
-    "costo_envio":7092
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Lagos",
-    "comuna":"Puerto Varas",
-    "costo_envio":6402
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Pumanque",
-    "costo_envio":5861
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Pumanque",
-    "costo_envio":6521
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Coquimbo",
-    "comuna":"Punitaqui",
-    "costo_envio":9306
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Coquimbo",
-    "comuna":"Punitaqui",
-    "costo_envio":9877
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Magallanes y de la Antártica Chilena",
-    "comuna":"Punta Arenas",
-    "costo_envio":7259
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Magallanes y de la Antártica Chilena",
-    "comuna":"Punta Arenas",
-    "costo_envio":7378
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Lagos",
-    "comuna":"Puqueldón",
-    "costo_envio":6402
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Purén",
-    "costo_envio":6878
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Purén",
-    "costo_envio":6224
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Purranque",
-    "costo_envio":6563
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Lagos",
-    "comuna":"Purranque",
-    "costo_envio":7164
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Putaendo",
-    "costo_envio":7069
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Putaendo",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Arica y Parinacota",
-    "comuna":"Putre",
-    "costo_envio":13756
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Puyehue",
-    "costo_envio":6563
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Lagos",
-    "comuna":"Puyehue",
-    "costo_envio":6402
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Lagos",
-    "comuna":"Queilén",
-    "costo_envio":6402
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Quellón",
-    "costo_envio":5534
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Quemchi",
-    "costo_envio":5777
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Quilaco",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Quilicura",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Quilicura",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Quilleco",
-    "costo_envio":6218
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Quilleco",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Ñuble",
-    "comuna":"Quillón",
-    "costo_envio":5783
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Ñuble",
-    "comuna":"Quillón",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Quillota",
-    "costo_envio":7961
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Quillota",
-    "costo_envio":8937
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Quilpué",
-    "costo_envio":7961
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Quilpué",
-    "costo_envio":6188
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Lagos",
-    "comuna":"Quinchao",
-    "costo_envio":7687
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Quinta de Tilcoco",
-    "costo_envio":7402
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Quinta de Tilcoco",
-    "costo_envio":6521
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Quinta Normal",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Quinta Normal",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Quintero",
-    "costo_envio":7961
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Quintero",
-    "costo_envio":8937
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Ñuble",
-    "comuna":"Quirihue",
-    "costo_envio":5783
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Ñuble",
-    "comuna":"Quirihue",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Rancagua",
-    "costo_envio":5581
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Rancagua",
-    "costo_envio":6521
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Ñuble",
-    "comuna":"Ránquil",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Rauco",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Recoleta",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Recoleta",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Renaico",
-    "costo_envio":6878
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Renaico",
-    "costo_envio":5974
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Renca",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Renca",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Rengo",
-    "costo_envio":6575
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Rengo",
-    "costo_envio":7830
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Requínoa",
-    "costo_envio":7402
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Requínoa",
-    "costo_envio":6545
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Retiro",
-    "costo_envio":7217
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Retiro",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Rinconada",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Ríos",
-    "comuna":"Río Bueno",
-    "costo_envio":6759
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Ríos",
-    "comuna":"Río Bueno",
-    "costo_envio":7164
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Río Claro",
-    "costo_envio":6111
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Río Claro",
-    "costo_envio":6902
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Coquimbo",
-    "comuna":"Río Hurtado",
-    "costo_envio":8342
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Aysén del General Carlos Ibáñez del Campo",
-    "comuna":"Río Ibáñez",
-    "costo_envio":9639
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Aysén del General Carlos Ibáñez del Campo",
-    "comuna":"Río Ibáñez",
-    "costo_envio":9520
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"Río Negro",
-    "costo_envio":6563
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Lagos",
-    "comuna":"Río Negro",
-    "costo_envio":6402
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Magallanes y de la Antártica Chilena",
-    "comuna":"Río Verde",
-    "costo_envio":8806
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Romeral",
-    "costo_envio":6747
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Romeral",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Saavedra",
-    "costo_envio":5349
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Sagrada Familia",
-    "costo_envio":5415
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Sagrada Familia",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Coquimbo",
-    "comuna":"Salamanca",
-    "costo_envio":9306
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Coquimbo",
-    "comuna":"Salamanca",
-    "costo_envio":7854
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"San Antonio",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"San Antonio",
-    "costo_envio":6069
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"San Bernardo",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"San Bernardo",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Ñuble",
-    "comuna":"San Carlos",
-    "costo_envio":5783
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"San Clemente",
-    "costo_envio":7217
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"San Clemente",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"San Esteban",
-    "costo_envio":7961
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"San Esteban",
-    "costo_envio":8937
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Ñuble",
-    "comuna":"San Fabián",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"San Felipe",
-    "costo_envio":7961
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"San Felipe",
-    "costo_envio":6188
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"San Fernando",
-    "costo_envio":5581
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"San Fernando",
-    "costo_envio":5474
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"San Francisco de Mostazal",
-    "costo_envio":7402
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Magallanes y de la Antártica Chilena",
-    "comuna":"San Gregorio",
-    "costo_envio":8806
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Ñuble",
-    "comuna":"San Ignacio",
-    "costo_envio":6111
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Ñuble",
-    "comuna":"San Ignacio",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"San Javier",
-    "costo_envio":6378
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"San Javier",
-    "costo_envio":6783
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"San Joaquín",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"San Joaquín",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"San José de Maipo",
-    "costo_envio":7449
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Lagos",
-    "comuna":"San Juan de la Costa",
-    "costo_envio":5974
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"San Miguel",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"San Miguel",
-    "costo_envio":6069
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Ñuble",
-    "comuna":"San Nicolás",
-    "costo_envio":6533
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Ñuble",
-    "comuna":"San Nicolás",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Lagos",
-    "comuna":"San Pablo",
-    "costo_envio":6563
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Lagos",
-    "comuna":"San Pablo",
-    "costo_envio":6402
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"San Pedro",
-    "costo_envio":7402
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"San Pedro",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Antofagasta",
-    "comuna":"San Pedro de Atacama",
-    "costo_envio":12120
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Antofagasta",
-    "comuna":"San Pedro de Atacama",
-    "costo_envio":11757
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"San Pedro de la Paz",
-    "costo_envio":5712
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"San Pedro de la Paz",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"San Rafael",
-    "costo_envio":6378
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"San Rafael",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"San Ramón",
-    "costo_envio":7854
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"San Ramón",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"San Rosendo",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"San Rosendo",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"San Vicente de Tagua Tagua",
-    "costo_envio":7140
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"San Vicente de Tagua Tagua",
-    "costo_envio":7830
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Santa Bárbara",
-    "costo_envio":6218
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Santa Bárbara",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"O'Higgins",
-    "comuna":"Santa Cruz",
-    "costo_envio":6575
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"O'Higgins",
-    "comuna":"Santa Cruz",
-    "costo_envio":6426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Santa Juana",
-    "costo_envio":6218
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Santa Juana",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Santa María",
-    "costo_envio":7961
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Santa María",
-    "costo_envio":7449
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Santiago",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Santiago",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Santo Domingo",
-    "costo_envio":7961
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Santo Domingo",
-    "costo_envio":7449
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Antofagasta",
-    "comuna":"Sierra Gorda",
-    "costo_envio":9621
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Antofagasta",
-    "comuna":"Sierra Gorda",
-    "costo_envio":11768
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Talagante",
-    "costo_envio":7848
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Talagante",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Talca",
-    "costo_envio":5415
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Talca",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Talcahuano",
-    "costo_envio":5789
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Talcahuano",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Antofagasta",
-    "comuna":"Taltal",
-    "costo_envio":7170
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Temuco",
-    "costo_envio":4635
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Temuco",
-    "costo_envio":4635
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Teno",
-    "costo_envio":6902
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Teno",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Teodoro Schmidt",
-    "costo_envio":5950
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Teodoro Schmidt",
-    "costo_envio":5712
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Atacama",
-    "comuna":"Tierra Amarilla",
-    "costo_envio":8770
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Atacama",
-    "comuna":"Tierra Amarilla",
-    "costo_envio":10008
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Tiltil",
-    "costo_envio":9300
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Tiltil",
-    "costo_envio":7449
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Magallanes y de la Antártica Chilena",
-    "comuna":"Timaukel",
-    "costo_envio":8806
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Tirúa",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Antofagasta",
-    "comuna":"Tocopilla",
-    "costo_envio":11424
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Antofagasta",
-    "comuna":"Tocopilla",
-    "costo_envio":11757
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Toltén",
-    "costo_envio":5712
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Tomé",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Tomé",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Magallanes y de la Antártica Chilena",
-    "comuna":"Torres del Paine",
-    "costo_envio":10567
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Aysén del General Carlos Ibáñez del Campo",
-    "comuna":"Tortel",
-    "costo_envio":10567
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Traiguén",
-    "costo_envio":6878
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Traiguén",
-    "costo_envio":6402
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Ñuble",
-    "comuna":"Treguaco",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Tucapel",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Tucapel",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Los Ríos",
-    "comuna":"Valdivia",
-    "costo_envio":5278
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Los Ríos",
-    "comuna":"Valdivia",
-    "costo_envio":5974
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Atacama",
-    "comuna":"Vallenar",
-    "costo_envio":9657
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Atacama",
-    "comuna":"Vallenar",
-    "costo_envio":7140
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Valparaíso",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Valparaíso",
-    "costo_envio":7449
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Vichuquén",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Victoria",
-    "costo_envio":6878
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Victoria",
-    "costo_envio":6224
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Coquimbo",
-    "comuna":"Vicuña",
-    "costo_envio":9306
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Coquimbo",
-    "comuna":"Vicuña",
-    "costo_envio":9877
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Vilcún",
-    "costo_envio":5783
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Vilcún",
-    "costo_envio":5974
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Maule",
-    "comuna":"Villa Alegre",
-    "costo_envio":7217
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Villa Alegre",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Villa Alemana",
-    "costo_envio":7961
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Villa Alemana",
-    "costo_envio":7259
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"La Araucanía",
-    "comuna":"Villarrica",
-    "costo_envio":6206
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"La Araucanía",
-    "comuna":"Villarrica",
-    "costo_envio":6402
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Viña del Mar",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Viña del Mar",
-    "costo_envio":7449
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Vitacura",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Metropolitana de Santiago",
-    "comuna":"Vitacura",
-    "costo_envio":7426
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Maule",
-    "comuna":"Yerbas Buenas",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Biobío",
-    "comuna":"Yumbel",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Biobío",
-    "comuna":"Yumbel",
-    "costo_envio":8330
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Ñuble",
-    "comuna":"Yungay",
-    "costo_envio":5783
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Ñuble",
-    "comuna":"Yungay",
-    "costo_envio":6938
-  },
-  {
-    "id_transportista":118,
-    "transportista":"Chilexpress",
-    "region":"Valparaíso",
-    "comuna":"Zapallar",
-    "costo_envio":6735
-  },
-  {
-    "id_transportista":120,
-    "transportista":"Correos de Chile",
-    "region":"Valparaíso",
-    "comuna":"Zapallar",
-    "costo_envio":7449
+{
+  "Los Lagos": {
+    "Achao": {
+      "Chilexpress": 6111
+    },
+    "Ancud": {
+      "Chilexpress": 7092
+    },
+    "Calbuco": {
+      "Chilexpress": 6111
+    },
+    "Castro": {
+      "Chilexpress": 7092,
+      "Correos de Chile": 7545
+    },
+    "Chaitén": {
+      "Chilexpress": 8199,
+      "Correos de Chile": 7545
+    },
+    "Chonchi": {
+      "Chilexpress": 5777
+    },
+    "Cochamó": {
+      "Chilexpress": 5700
+    },
+    "Curaco de Vélez": {
+      "Chilexpress": 6111
+    },
+    "Dalcahue": {
+      "Chilexpress": 6111
+    },
+    "Fresia": {
+      "Chilexpress": 6111
+    },
+    "Frutillar": {
+      "Chilexpress": 6111
+    },
+    "Futaleufú": {
+      "Correos de Chile": 8806
+    },
+    "Hualaihué": {
+      "Chilexpress": 6355,
+      "Correos de Chile": 8913
+    },
+    "Llanquihue": {
+      "Chilexpress": 6111
+    },
+    "Los Muermos": {
+      "Chilexpress": 6111
+    },
+    "Maullín": {
+      "Chilexpress": 5777
+    },
+    "Osorno": {
+      "Chilexpress": 5700,
+      "Correos de Chile": 4998
+    },
+    "Palena": {
+      "Correos de Chile": 6402
+    },
+    "Puerto Montt": {
+      "Chilexpress": 5444,
+      "Correos de Chile": 5474
+    },
+    "Puerto Octay": {
+      "Chilexpress": 6563,
+      "Correos de Chile": 6402
+    },
+    "Puerto Varas": {
+      "Chilexpress": 7092,
+      "Correos de Chile": 6402
+    },
+    "Puqueldón": {
+      "Correos de Chile": 6402
+    },
+    "Purranque": {
+      "Chilexpress": 6563,
+      "Correos de Chile": 7164
+    },
+    "Puyehue": {
+      "Chilexpress": 6563,
+      "Correos de Chile": 6402
+    },
+    "Queilén": {
+      "Correos de Chile": 6402
+    },
+    "Quellón": {
+      "Chilexpress": 5534
+    },
+    "Quemchi": {
+      "Chilexpress": 5777
+    },
+    "Quinchao": {
+      "Correos de Chile": 7687
+    },
+    "Río Negro": {
+      "Chilexpress": 6563,
+      "Correos de Chile": 6402
+    },
+    "San Juan de la Costa": {
+      "Correos de Chile": 5974
+    },
+    "San Pablo": {
+      "Chilexpress": 6563,
+      "Correos de Chile": 6402
+    }
+  },
+  "Valparaíso": {
+    "Algarrobo": {
+      "Chilexpress": 7961,
+      "Correos de Chile": 8937
+    },
+    "Cabildo": {
+      "Chilexpress": 7069,
+      "Correos de Chile": 7426
+    },
+    "Calle Larga": {
+      "Chilexpress": 7961,
+      "Correos de Chile": 7449
+    },
+    "Cartagena": {
+      "Chilexpress": 7961,
+      "Correos de Chile": 7140
+    },
+    "Casablanca": {
+      "Chilexpress": 7949,
+      "Correos de Chile": 8937
+    },
+    "Catemu": {
+      "Chilexpress": 7069
+    },
+    "Concón": {
+      "Chilexpress": 7961,
+      "Correos de Chile": 7449
+    },
+    "El Quisco": {
+      "Chilexpress": 7961,
+      "Correos de Chile": 8937
+    },
+    "El Tabo": {
+      "Chilexpress": 7961,
+      "Correos de Chile": 8937
+    },
+    "Hijuelas": {
+      "Chilexpress": 7069,
+      "Correos de Chile": 8937
+    },
+    "Juan Fernández": {
+      "Correos de Chile": 21134
+    },
+    "La Calera": {
+      "Chilexpress": 6735
+    },
+    "La Cruz": {
+      "Chilexpress": 7961,
+      "Correos de Chile": 8937
+    },
+    "La Ligua": {
+      "Chilexpress": 7432,
+      "Correos de Chile": 8937
+    },
+    "Limache": {
+      "Chilexpress": 7961,
+      "Correos de Chile": 7259
+    },
+    "Llaillay": {
+      "Chilexpress": 7432,
+      "Correos de Chile": 8937
+    },
+    "Los Andes": {
+      "Chilexpress": 7961,
+      "Correos de Chile": 6069
+    },
+    "Nogales": {
+      "Chilexpress": 7069,
+      "Correos de Chile": 7426
+    },
+    "Olmué": {
+      "Chilexpress": 7961,
+      "Correos de Chile": 7449
+    },
+    "Panquehue": {
+      "Chilexpress": 6289,
+      "Correos de Chile": 7426
+    },
+    "Papudo": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 7426
+    },
+    "Petorca": {
+      "Correos de Chile": 7426
+    },
+    "Puchuncaví": {
+      "Chilexpress": 7961,
+      "Correos de Chile": 7426
+    },
+    "Putaendo": {
+      "Chilexpress": 7069,
+      "Correos de Chile": 7426
+    },
+    "Quillota": {
+      "Chilexpress": 7961,
+      "Correos de Chile": 8937
+    },
+    "Quilpué": {
+      "Chilexpress": 7961,
+      "Correos de Chile": 6188
+    },
+    "Quintero": {
+      "Chilexpress": 7961,
+      "Correos de Chile": 8937
+    },
+    "Rinconada": {
+      "Correos de Chile": 7426
+    },
+    "San Antonio": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 6069
+    },
+    "San Esteban": {
+      "Chilexpress": 7961,
+      "Correos de Chile": 8937
+    },
+    "San Felipe": {
+      "Chilexpress": 7961,
+      "Correos de Chile": 6188
+    },
+    "Santa María": {
+      "Chilexpress": 7961,
+      "Correos de Chile": 7449
+    },
+    "Santo Domingo": {
+      "Chilexpress": 7961,
+      "Correos de Chile": 7449
+    },
+    "Valparaíso": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 7449
+    },
+    "Villa Alemana": {
+      "Chilexpress": 7961,
+      "Correos de Chile": 7259
+    },
+    "Viña del Mar": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 7449
+    },
+    "Zapallar": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 7449
+    }
+  },
+  "Metropolitana de Santiago": {
+    "Alhué": {
+      "Correos de Chile": 8913
+    },
+    "Buin": {
+      "Chilexpress": 9300,
+      "Correos de Chile": 7140
+    },
+    "Calera de Tango": {
+      "Chilexpress": 9300,
+      "Correos de Chile": 7426
+    },
+    "Cerrillos": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 7426
+    },
+    "Cerro Navia": {
+      "Chilexpress": 7854,
+      "Correos de Chile": 7426
+    },
+    "Colina": {
+      "Chilexpress": 7854,
+      "Correos de Chile": 6069
+    },
+    "Conchalí": {
+      "Chilexpress": 7854,
+      "Correos de Chile": 7426
+    },
+    "Curacaví": {
+      "Chilexpress": 7961,
+      "Correos de Chile": 7676
+    },
+    "El Bosque": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 7426
+    },
+    "El Monte": {
+      "Chilexpress": 8705,
+      "Correos de Chile": 8913
+    },
+    "Estación Central": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 7426
+    },
+    "Huechuraba": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 7426
+    },
+    "Independencia": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 7426
+    },
+    "Isla de Maipo": {
+      "Chilexpress": 9300,
+      "Correos de Chile": 8235
+    },
+    "La Cisterna": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 7426
+    },
+    "La Florida": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 7426
+    },
+    "La Granja": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 7426
+    },
+    "La Pintana": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 6069
+    },
+    "La Reina": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 7426
+    },
+    "Lampa": {
+      "Chilexpress": 9300,
+      "Correos de Chile": 8913
+    },
+    "Las Condes": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 7426
+    },
+    "Lo Barnechea": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 7426
+    },
+    "Lo Espejo": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 7426
+    },
+    "Lo Prado": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 7426
+    },
+    "Macul": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 6069
+    },
+    "Maipú": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 7426
+    },
+    "María Pinto": {
+      "Correos de Chile": 8913
+    },
+    "Melipilla": {
+      "Chilexpress": 8455,
+      "Correos de Chile": 8913
+    },
+    "Ñuñoa": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 6069
+    },
+    "Padre Hurtado": {
+      "Chilexpress": 7854,
+      "Correos de Chile": 6069
+    },
+    "Paine": {
+      "Chilexpress": 9300,
+      "Correos de Chile": 8913
+    },
+    "Pedro Aguirre Cerda": {
+      "Chilexpress": 7854,
+      "Correos de Chile": 7426
+    },
+    "Peñaflor": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 7426
+    },
+    "Peñalolén": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 7426
+    },
+    "Pirque": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 7426
+    },
+    "Providencia": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 6069
+    },
+    "Pudahuel": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 6069
+    },
+    "Puente Alto": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 6069
+    },
+    "Quilicura": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 7426
+    },
+    "Quinta Normal": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 7426
+    },
+    "Recoleta": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 7426
+    },
+    "Renca": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 7426
+    },
+    "San Bernardo": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 7426
+    },
+    "San Joaquín": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 7426
+    },
+    "San José de Maipo": {
+      "Correos de Chile": 7449
+    },
+    "San Miguel": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 6069
+    },
+    "San Pedro": {
+      "Chilexpress": 7402,
+      "Correos de Chile": 7426
+    },
+    "San Ramón": {
+      "Chilexpress": 7854,
+      "Correos de Chile": 7426
+    },
+    "Santiago": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 7426
+    },
+    "Talagante": {
+      "Chilexpress": 7848,
+      "Correos de Chile": 7426
+    },
+    "Tiltil": {
+      "Chilexpress": 9300,
+      "Correos de Chile": 7449
+    },
+    "Vitacura": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 7426
+    }
+  },
+  "Biobío": {
+    "Alto Biobío": {
+      "Chilexpress": 6218,
+      "Correos de Chile": 8925
+    },
+    "Antuco": {
+      "Chilexpress": 6218,
+      "Correos de Chile": 8330
+    },
+    "Arauco": {
+      "Chilexpress": 6218,
+      "Correos de Chile": 8330
+    },
+    "Cabrero": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 8330
+    },
+    "Cañete": {
+      "Chilexpress": 6831
+    },
+    "Chiguayante": {
+      "Chilexpress": 5712
+    },
+    "Concepción": {
+      "Chilexpress": 5712
+    },
+    "Contulmo": {
+      "Chilexpress": 5349
+    },
+    "Coronel": {
+      "Chilexpress": 6831,
+      "Correos de Chile": 6938
+    },
+    "Curanilahue": {
+      "Chilexpress": 6831,
+      "Correos de Chile": 8330
+    },
+    "Florida": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 7426
+    },
+    "Hualpén": {
+      "Chilexpress": 5789,
+      "Correos de Chile": 6938
+    },
+    "Hualqui": {
+      "Chilexpress": 6831,
+      "Correos de Chile": 6938
+    },
+    "Laja": {
+      "Chilexpress": 9800,
+      "Correos de Chile": 8330
+    },
+    "Lebu": {
+      "Chilexpress": 6218,
+      "Correos de Chile": 8330
+    },
+    "Los Álamos": {
+      "Chilexpress": 6218,
+      "Correos de Chile": 6938
+    },
+    "Los Ángeles": {
+      "Chilexpress": 5712,
+      "Correos de Chile": 5831
+    },
+    "Lota": {
+      "Chilexpress": 6831,
+      "Correos de Chile": 6938
+    },
+    "Mulchén": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 6938
+    },
+    "Nacimiento": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 8330
+    },
+    "Negrete": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 6938
+    },
+    "Penco": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 6938
+    },
+    "Quilaco": {
+      "Correos de Chile": 6938
+    },
+    "Quilleco": {
+      "Chilexpress": 6218,
+      "Correos de Chile": 6938
+    },
+    "San Pedro de la Paz": {
+      "Chilexpress": 5712,
+      "Correos de Chile": 8330
+    },
+    "San Rosendo": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 6938
+    },
+    "Santa Bárbara": {
+      "Chilexpress": 6218,
+      "Correos de Chile": 8330
+    },
+    "Santa Juana": {
+      "Chilexpress": 6218,
+      "Correos de Chile": 8330
+    },
+    "Talcahuano": {
+      "Chilexpress": 5789,
+      "Correos de Chile": 6938
+    },
+    "Tirúa": {
+      "Correos de Chile": 6938
+    },
+    "Tomé": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 6938
+    },
+    "Tucapel": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 6938
+    },
+    "Yumbel": {
+      "Chilexpress": 6735,
+      "Correos de Chile": 8330
+    }
+  },
+  "Atacama": {
+    "Alto del Carmen": {
+      "Correos de Chile": 8330
+    },
+    "Caldera": {
+      "Chilexpress": 8895,
+      "Correos de Chile": 8806
+    },
+    "Chañaral": {
+      "Chilexpress": 8895,
+      "Correos de Chile": 8092
+    },
+    "Copiapó": {
+      "Chilexpress": 7955,
+      "Correos de Chile": 8342
+    },
+    "Diego de Almagro": {
+      "Chilexpress": 8282
+    },
+    "Freirina": {
+      "Chilexpress": 9425,
+      "Correos de Chile": 13756
+    },
+    "Huasco": {
+      "Chilexpress": 9657,
+      "Correos de Chile": 13756
+    },
+    "Tierra Amarilla": {
+      "Chilexpress": 8770,
+      "Correos de Chile": 10008
+    },
+    "Vallenar": {
+      "Chilexpress": 9657,
+      "Correos de Chile": 7140
+    }
+  },
+  "Tarapacá": {
+    "Alto Hospicio": {
+      "Chilexpress": 13572,
+      "Correos de Chile": 16505
+    },
+    "Colchane": {
+      "Correos de Chile": 13756
+    },
+    "Huara": {
+      "Correos de Chile": 13756
+    },
+    "Iquique": {
+      "Chilexpress": 11406,
+      "Correos de Chile": 10710
+    },
+    "Pica": {
+      "Correos de Chile": 13756
+    },
+    "Pozo Almonte": {
+      "Chilexpress": 13602,
+      "Correos de Chile": 13756
+    }
+  },
+  "Coquimbo": {
+    "Andacollo": {
+      "Chilexpress": 9306,
+      "Correos de Chile": 8330
+    },
+    "Canela": {
+      "Chilexpress": 9306
+    },
+    "Combarbalá": {
+      "Chilexpress": 8782,
+      "Correos de Chile": 8330
+    },
+    "Coquimbo": {
+      "Chilexpress": 7854,
+      "Correos de Chile": 6783
+    },
+    "Illapel": {
+      "Chilexpress": 9306,
+      "Correos de Chile": 7854
+    },
+    "La Higuera": {
+      "Correos de Chile": 8235
+    },
+    "La Serena": {
+      "Chilexpress": 7854,
+      "Correos de Chile": 7140
+    },
+    "Los Vilos": {
+      "Chilexpress": 9306,
+      "Correos de Chile": 7854
+    },
+    "Monte Patria": {
+      "Chilexpress": 9306,
+      "Correos de Chile": 8235
+    },
+    "Ovalle": {
+      "Chilexpress": 7854,
+      "Correos de Chile": 7973
+    },
+    "Paihuano": {
+      "Chilexpress": 9306,
+      "Correos de Chile": 8342
+    },
+    "Punitaqui": {
+      "Chilexpress": 9306,
+      "Correos de Chile": 9877
+    },
+    "Río Hurtado": {
+      "Correos de Chile": 8342
+    },
+    "Salamanca": {
+      "Chilexpress": 9306,
+      "Correos de Chile": 7854
+    },
+    "Vicuña": {
+      "Chilexpress": 9306,
+      "Correos de Chile": 9877
+    }
+  },
+  "La Araucanía": {
+    "Angol": {
+      "Chilexpress": 6878,
+      "Correos de Chile": 5950
+    },
+    "Carahue": {
+      "Chilexpress": 6878,
+      "Correos de Chile": 6224
+    },
+    "Cholchol": {
+      "Chilexpress": 4915,
+      "Correos de Chile": 6224
+    },
+    "Collipulli": {
+      "Chilexpress": 6878,
+      "Correos de Chile": 6938
+    },
+    "Cunco": {
+      "Chilexpress": 5783,
+      "Correos de Chile": 6426
+    },
+    "Curacautín": {
+      "Chilexpress": 5783,
+      "Correos de Chile": 6426
+    },
+    "Curarrehue": {
+      "Correos de Chile": 6938
+    },
+    "Ercilla": {
+      "Correos de Chile": 6224
+    },
+    "Freire": {
+      "Chilexpress": 6878
+    },
+    "Galvarino": {
+      "Chilexpress": 5783,
+      "Correos de Chile": 6224
+    },
+    "Gorbea": {
+      "Chilexpress": 6878,
+      "Correos de Chile": 6224
+    },
+    "Lautaro": {
+      "Chilexpress": 6878,
+      "Correos de Chile": 6224
+    },
+    "Loncoche": {
+      "Chilexpress": 5968,
+      "Correos de Chile": 6402
+    },
+    "Lonquimay": {
+      "Chilexpress": 5349,
+      "Correos de Chile": 7676
+    },
+    "Los Sauces": {
+      "Correos de Chile": 6402
+    },
+    "Lumaco": {
+      "Chilexpress": 6878,
+      "Correos de Chile": 6402
+    },
+    "Melipeuco": {
+      "Correos de Chile": 6224
+    },
+    "Nueva Imperial": {
+      "Chilexpress": 6878,
+      "Correos de Chile": 6224
+    },
+    "Padre Las Casas": {
+      "Chilexpress": 4635
+    },
+    "Perquenco": {
+      "Correos de Chile": 6224
+    },
+    "Pitrufquén": {
+      "Chilexpress": 6878
+    },
+    "Pucón": {
+      "Chilexpress": 6206,
+      "Correos de Chile": 6224
+    },
+    "Purén": {
+      "Chilexpress": 6878,
+      "Correos de Chile": 6224
+    },
+    "Renaico": {
+      "Chilexpress": 6878,
+      "Correos de Chile": 5974
+    },
+    "Saavedra": {
+      "Chilexpress": 5349
+    },
+    "Temuco": {
+      "Chilexpress": 4635,
+      "Correos de Chile": 4635
+    },
+    "Teodoro Schmidt": {
+      "Chilexpress": 5950,
+      "Correos de Chile": 5712
+    },
+    "Toltén": {
+      "Correos de Chile": 5712
+    },
+    "Traiguén": {
+      "Chilexpress": 6878,
+      "Correos de Chile": 6402
+    },
+    "Victoria": {
+      "Chilexpress": 6878,
+      "Correos de Chile": 6224
+    },
+    "Vilcún": {
+      "Chilexpress": 5783,
+      "Correos de Chile": 5974
+    },
+    "Villarrica": {
+      "Chilexpress": 6206,
+      "Correos de Chile": 6402
+    }
+  },
+  "Antofagasta": {
+    "Antofagasta": {
+      "Chilexpress": 10198,
+      "Correos de Chile": 9639
+    },
+    "Calama": {
+      "Chilexpress": 12120,
+      "Correos de Chile": 10948
+    },
+    "María Elena": {
+      "Chilexpress": 11424,
+      "Correos de Chile": 11757
+    },
+    "Mejillones": {
+      "Chilexpress": 12120,
+      "Correos de Chile": 10948
+    },
+    "Ollagüe": {
+      "Correos de Chile": 11757
+    },
+    "San Pedro de Atacama": {
+      "Chilexpress": 12120,
+      "Correos de Chile": 11757
+    },
+    "Sierra Gorda": {
+      "Chilexpress": 9621,
+      "Correos de Chile": 11768
+    },
+    "Taltal": {
+      "Chilexpress": 7170
+    },
+    "Tocopilla": {
+      "Chilexpress": 11424,
+      "Correos de Chile": 11757
+    }
+  },
+  "Arica y Parinacota": {
+    "Arica": {
+      "Chilexpress": 12430,
+      "Correos de Chile": 10829
+    },
+    "Camarones": {
+      "Correos de Chile": 13756
+    },
+    "General Lagos": {
+      "Correos de Chile": 10115
+    },
+    "Putre": {
+      "Correos de Chile": 13756
+    }
+  },
+  "Aysén del General Carlos Ibáñez del Campo": {
+    "Aysén": {
+      "Chilexpress": 8330,
+      "Correos de Chile": 8806
+    },
+    "Chile Chico": {
+      "Chilexpress": 9669,
+      "Correos de Chile": 8806
+    },
+    "Cisnes": {
+      "Correos de Chile": 10710
+    },
+    "Cochrane": {
+      "Chilexpress": 9764,
+      "Correos de Chile": 8806
+    },
+    "Coyhaique": {
+      "Chilexpress": 7777,
+      "Correos de Chile": 7259
+    },
+    "Guaitecas": {
+      "Correos de Chile": 13554
+    },
+    "Lago Verde": {
+      "Correos de Chile": 9520
+    },
+    "Puerto Chacabuco": {
+      "Chilexpress": 9211,
+      "Correos de Chile": 8806
+    },
+    "Puerto Cisnes": {
+      "Chilexpress": 9127,
+      "Correos de Chile": 8806
+    },
+    "Río Ibáñez": {
+      "Chilexpress": 9639,
+      "Correos de Chile": 9520
+    },
+    "Tortel": {
+      "Correos de Chile": 10567
+    }
+  },
+  "Ñuble": {
+    "Bulnes": {
+      "Chilexpress": 5783,
+      "Correos de Chile": 8330
+    },
+    "Chillán": {
+      "Chilexpress": 5658,
+      "Correos de Chile": 6938
+    },
+    "Chillán Viejo": {
+      "Chilexpress": 5658,
+      "Correos de Chile": 6938
+    },
+    "Cobquecura": {
+      "Correos de Chile": 7140
+    },
+    "Coelemu": {
+      "Chilexpress": 5783
+    },
+    "Coihueco": {
+      "Chilexpress": 5968,
+      "Correos de Chile": 8330
+    },
+    "El Carmen": {
+      "Chilexpress": 6111,
+      "Correos de Chile": 6938
+    },
+    "Ninhue": {
+      "Chilexpress": 5783,
+      "Correos de Chile": 6938
+    },
+    "Ñiquén": {
+      "Chilexpress": 6533
+    },
+    "Pemuco": {
+      "Chilexpress": 6378,
+      "Correos de Chile": 6938
+    },
+    "Pinto": {
+      "Chilexpress": 5968,
+      "Correos de Chile": 6938
+    },
+    "Portezuelo": {
+      "Correos de Chile": 6938
+    },
+    "Quillón": {
+      "Chilexpress": 5783,
+      "Correos de Chile": 6938
+    },
+    "Quirihue": {
+      "Chilexpress": 5783,
+      "Correos de Chile": 6938
+    },
+    "Ránquil": {
+      "Correos de Chile": 6938
+    },
+    "San Carlos": {
+      "Chilexpress": 5783
+    },
+    "San Fabián": {
+      "Correos de Chile": 6938
+    },
+    "San Ignacio": {
+      "Chilexpress": 6111,
+      "Correos de Chile": 6938
+    },
+    "San Nicolás": {
+      "Chilexpress": 6533,
+      "Correos de Chile": 6938
+    },
+    "Treguaco": {
+      "Correos de Chile": 6938
+    },
+    "Yungay": {
+      "Chilexpress": 5783,
+      "Correos de Chile": 6938
+    }
+  },
+  "Magallanes y de la Antártica Chilena": {
+    "Cabo de Hornos": {
+      "Correos de Chile": 10567
+    },
+    "Natales": {
+      "Chilexpress": 8675,
+      "Correos de Chile": 8330
+    },
+    "Porvenir": {
+      "Chilexpress": 8675
+    },
+    "Primavera": {
+      "Correos de Chile": 8806
+    },
+    "Punta Arenas": {
+      "Chilexpress": 7259,
+      "Correos de Chile": 7378
+    },
+    "Río Verde": {
+      "Correos de Chile": 8806
+    },
+    "San Gregorio": {
+      "Correos de Chile": 8806
+    },
+    "Timaukel": {
+      "Correos de Chile": 8806
+    },
+    "Torres del Paine": {
+      "Correos de Chile": 10567
+    }
+  },
+  "Maule": {
+    "Cauquenes": {
+      "Chilexpress": 7217
+    },
+    "Chanco": {
+      "Chilexpress": 7217
+    },
+    "Colbún": {
+      "Chilexpress": 6747,
+      "Correos de Chile": 8330
+    },
+    "Constitución": {
+      "Chilexpress": 6378,
+      "Correos de Chile": 6783
+    },
+    "Curepto": {
+      "Correos de Chile": 8330
+    },
+    "Curicó": {
+      "Chilexpress": 5415,
+      "Correos de Chile": 6902
+    },
+    "Empedrado": {
+      "Chilexpress": 7217,
+      "Correos de Chile": 6938
+    },
+    "Hualañé": {
+      "Chilexpress": 6355,
+      "Correos de Chile": 6783
+    },
+    "Licantén": {
+      "Chilexpress": 6378,
+      "Correos de Chile": 7735
+    },
+    "Linares": {
+      "Chilexpress": 5415,
+      "Correos de Chile": 5950
+    },
+    "Longaví": {
+      "Chilexpress": 6378
+    },
+    "Maule": {
+      "Chilexpress": 6378,
+      "Correos de Chile": 6938
+    },
+    "Molina": {
+      "Chilexpress": 7217,
+      "Correos de Chile": 8330
+    },
+    "Parral": {
+      "Chilexpress": 7217,
+      "Correos de Chile": 8330
+    },
+    "Pelarco": {
+      "Correos de Chile": 6938
+    },
+    "Pelluhue": {
+      "Chilexpress": 7217,
+      "Correos de Chile": 6938
+    },
+    "Pencahue": {
+      "Chilexpress": 7217,
+      "Correos de Chile": 6938
+    },
+    "Rauco": {
+      "Correos de Chile": 6938
+    },
+    "Retiro": {
+      "Chilexpress": 7217,
+      "Correos de Chile": 6938
+    },
+    "Río Claro": {
+      "Chilexpress": 6111,
+      "Correos de Chile": 6902
+    },
+    "Romeral": {
+      "Chilexpress": 6747,
+      "Correos de Chile": 6938
+    },
+    "Sagrada Familia": {
+      "Chilexpress": 5415,
+      "Correos de Chile": 6938
+    },
+    "San Clemente": {
+      "Chilexpress": 7217,
+      "Correos de Chile": 8330
+    },
+    "San Javier": {
+      "Chilexpress": 6378,
+      "Correos de Chile": 6783
+    },
+    "San Rafael": {
+      "Chilexpress": 6378,
+      "Correos de Chile": 6938
+    },
+    "Talca": {
+      "Chilexpress": 5415,
+      "Correos de Chile": 6938
+    },
+    "Teno": {
+      "Chilexpress": 6902,
+      "Correos de Chile": 8330
+    },
+    "Vichuquén": {
+      "Correos de Chile": 6938
+    },
+    "Villa Alegre": {
+      "Chilexpress": 7217,
+      "Correos de Chile": 6938
+    },
+    "Yerbas Buenas": {
+      "Correos de Chile": 6938
+    }
+  },
+  "O'Higgins": {
+    "Chépica": {
+      "Chilexpress": 6575
+    },
+    "Chimbarongo": {
+      "Chilexpress": 7402,
+      "Correos de Chile": 7830
+    },
+    "Codegua": {
+      "Chilexpress": 6265
+    },
+    "Coínco": {
+      "Chilexpress": 7402
+    },
+    "Coltauco": {
+      "Chilexpress": 7402,
+      "Correos de Chile": 7830
+    },
+    "Doñihue": {
+      "Chilexpress": 7402,
+      "Correos de Chile": 6938
+    },
+    "Graneros": {
+      "Chilexpress": 7402,
+      "Correos de Chile": 6521
+    },
+    "La Estrella": {
+      "Chilexpress": 5861,
+      "Correos de Chile": 8806
+    },
+    "Las Cabras": {
+      "Chilexpress": 6575,
+      "Correos de Chile": 7830
+    },
+    "Litueche": {
+      "Chilexpress": 6914,
+      "Correos de Chile": 8092
+    },
+    "Lolol": {
+      "Chilexpress": 6575,
+      "Correos de Chile": 8092
+    },
+    "Machalí": {
+      "Chilexpress": 7402,
+      "Correos de Chile": 7830
+    },
+    "Malloa": {
+      "Chilexpress": 7402,
+      "Correos de Chile": 6521
+    },
+    "Marchigüe": {
+      "Chilexpress": 7402,
+      "Correos de Chile": 6521
+    },
+    "Nancagua": {
+      "Chilexpress": 7015,
+      "Correos de Chile": 6938
+    },
+    "Navidad": {
+      "Chilexpress": 7402,
+      "Correos de Chile": 6521
+    },
+    "Olivar": {
+      "Chilexpress": 7402,
+      "Correos de Chile": 6307
+    },
+    "Palmilla": {
+      "Chilexpress": 7402,
+      "Correos de Chile": 6521
+    },
+    "Paredones": {
+      "Chilexpress": 7402,
+      "Correos de Chile": 6521
+    },
+    "Peralillo": {
+      "Chilexpress": 7402,
+      "Correos de Chile": 6938
+    },
+    "Peumo": {
+      "Chilexpress": 6545,
+      "Correos de Chile": 6521
+    },
+    "Pichidegua": {
+      "Chilexpress": 7402,
+      "Correos de Chile": 6426
+    },
+    "Pichilemu": {
+      "Chilexpress": 6914,
+      "Correos de Chile": 6521
+    },
+    "Placilla": {
+      "Chilexpress": 7015,
+      "Correos de Chile": 7830
+    },
+    "Pumanque": {
+      "Chilexpress": 5861,
+      "Correos de Chile": 6521
+    },
+    "Quinta de Tilcoco": {
+      "Chilexpress": 7402,
+      "Correos de Chile": 6521
+    },
+    "Rancagua": {
+      "Chilexpress": 5581,
+      "Correos de Chile": 6521
+    },
+    "Rengo": {
+      "Chilexpress": 6575,
+      "Correos de Chile": 7830
+    },
+    "Requínoa": {
+      "Chilexpress": 7402,
+      "Correos de Chile": 6545
+    },
+    "San Fernando": {
+      "Chilexpress": 5581,
+      "Correos de Chile": 5474
+    },
+    "San Francisco de Mostazal": {
+      "Chilexpress": 7402
+    },
+    "San Vicente de Tagua Tagua": {
+      "Chilexpress": 7140,
+      "Correos de Chile": 7830
+    },
+    "Santa Cruz": {
+      "Chilexpress": 6575,
+      "Correos de Chile": 6426
+    }
+  },
+  "Los Ríos": {
+    "Corral": {
+      "Correos de Chile": 7676
+    },
+    "Futrono": {
+      "Chilexpress": 6605,
+      "Correos de Chile": 7164
+    },
+    "La Unión": {
+      "Chilexpress": 6759,
+      "Correos de Chile": 6402
+    },
+    "Lago Ranco": {
+      "Chilexpress": 5462
+    },
+    "Lanco": {
+      "Chilexpress": 6605,
+      "Correos de Chile": 6402
+    },
+    "Los Lagos": {
+      "Chilexpress": 6605,
+      "Correos de Chile": 7164
+    },
+    "Máfil": {
+      "Chilexpress": 6605,
+      "Correos de Chile": 6402
+    },
+    "Mariquina": {
+      "Chilexpress": 6605,
+      "Correos de Chile": 6402
+    },
+    "Paillaco": {
+      "Chilexpress": 6605,
+      "Correos de Chile": 5950
+    },
+    "Panguipulli": {
+      "Chilexpress": 6605,
+      "Correos de Chile": 5974
+    },
+    "Río Bueno": {
+      "Chilexpress": 6759,
+      "Correos de Chile": 7164
+    },
+    "Valdivia": {
+      "Chilexpress": 5278,
+      "Correos de Chile": 5974
+    }
+  },
+  "NaN": {
+    "Hornopiren": {
+      "Chilexpress": 6355
+    },
+    "La Junta": {
+      "Chilexpress": 9764
+    },
+    "Lontue": {
+      "Chilexpress": 6378
+    }
   }
-]
+}
