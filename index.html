@@ -1,148 +1,340 @@
+IDEA PROYECTO LIVE CON PRODCUTOS
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Video Interactivo DJOYAS (YouTube)</title>
-  <!-- Tu CDN de Bootstrap -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <style>
-    body {
-      background: #f9f9f9;
-      font-family: system-ui, sans-serif;
-    }
-    .video-wrapper {
-      position: relative;
-      border-radius: 10px;
-      overflow: hidden;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      aspect-ratio: 16/9;
-      background: #000;
-    }
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-    .product-card {
-      display: none;
-      transition: all 0.3s ease;
-    }
-    .product-card.visible {
-      display: block;
-    }
-  </style>
+
+<style>
+
+</style>
 </head>
-<body>
 
-<div class="container-fluid py-4">
-  <div class="row">
-    <!-- VIDEO -->
-    <div class="col-md-6 mb-3">
-      <div class="video-wrapper">
-        <div id="player"></div>
-      </div>
-    </div>
+<body class="cuerpo">
 
-    <!-- PRODUCTOS -->
-    <div class="col-md-6">
-      <h4 class="mb-3">Productos destacados del video</h4>
-      <div id="productList" class="list-group"></div>
+
+<!-- Incluir el player.js de Vimeo -->
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+
+
+<div class="container body-card">
+<div class="live-layout row">
+  <div class="video-column col-lg-6 col-12">
+    <!-- Botón fullscreen sobre video -->
+     <!-- Pop-ups sincronizados -->
+<div id="product-popup-container" class="popup-area"></div>
+    <div class="video-container" id="video-container">
+      <button id="fullscreen-btn" class="fullscreen-btn">⛶ Pantalla completa</button>
+      <iframe id="vimeo-player"
+              src="https://player.vimeo.com/video/1083922012?h=ccb88410ff"
+              width="100%" height="100%"
+              frameborder="0"
+              allow="autoplay; fullscreen"
+              sandbox="allow-scripts allow-same-origin"></iframe>
+              
+<!-- Botón flotante para móvil -->
+<div id="floating-products-button" class="floating-products-button">🛒</div>
+<div id="floating-product-panel" class="floating-panel hidden"></div>
     </div>
   </div>
+
+  <div class="copy-column col-lg-6 col-12">
+    <button id="toggle-product-list-btn" class="view-products-btn">🛍️ Ver todos los productos</button>
+<!-- Lista completa de productos estilo "capítulos" -->
+<div id="full-product-list" class="product-list hidden"></div>
+    <h2 class="live-title mt-3">Live de Joyas – 9 de mayo</h2>
+    <p class="live-description">
+      Te mostramos en vivo nuestros productos estrella. Podés verlos en el momento exacto del video o explorar todos aquí abajo.
+    </p>
+
+  </div>
+</div>
 </div>
 
-<!-- API DE YOUTUBE -->
-<script src="https://www.youtube.com/iframe_api"></script>
+
+
+
+
+
+
+
+
+
+<style>
+
+.cuerpo{
+background: #ccc;
+}
+
+.body-card{
+background:#fff;
+border-radius: 20px;
+padding: 2rem;
+}
+
+
+.live-layout {
+  gap: 20px;
+  font-family: sans-serif;
+}
+
+.copy-column {
+  flex: 1;
+  min-width: 250px;
+}
+#vimeo-player{
+height: 900px;
+}
+
+.video-container {
+  position: relative;
+
+}
+
+.fullscreen-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.view-products-btn {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 45%;
+  cursor: pointer;
+}
+
+.popup-area {
+  position: absolute;
+  bottom: 80px; /* más arriba que los controles del video */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  pointer-events: none; /* para no bloquear el video */
+}
+
+.popup-product {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  max-width: 220px;
+  text-align: center;
+  pointer-events: auto;
+  animation: fadein 0.5s;
+}
+
+.floating-products-button {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.floating-panel {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  border-top: 1px solid #ccc;
+  max-height: 60%;
+  overflow-y: auto;
+  padding: 10px;
+  z-index: 9999;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .live-layout {
+    flex-direction: column;
+  }
+
+  .floating-products-button {
+    display: block;
+  }
+
+  .product-list {
+    display: none !important;
+  }
+  .product-card {
+  width: 100%;
+}
+}
+
+@keyframes fadein {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+
+</style>
+
+
 
 <script>
-  // --- CONFIGURACIÓN DE PRODUCTOS Y TIEMPOS ---
-  const syncData = [
-    { start: 5, end: 10, id: 1, name: "Aros Enchapados en Oro", image: "https://via.placeholder.com/100", price: 8990 },
-    { start: 15, end: 22, id: 2, name: "Pulsera Plata 925", image: "https://via.placeholder.com/100", price: 12990 },
-    { start: 28, end: 34, id: 3, name: "Anillo Doble Corazón", image: "https://via.placeholder.com/100", price: 7990 }
+
+document.addEventListener('DOMContentLoaded', function () {
+  const productMarkers = [
+    { id: 1, name: "Anillo Luna", image: "luna.jpg", price: "$199", timestamp: 15, url: "/carrito?add=123" },
+    { id: 2, name: "Pulsera Estrella", image: "estrella.jpg", price: "$249", timestamp: 200, url: "/carrito?add=456" },
+    { "id": 3, "name": "Collar Sol", "image": "sol.jpg", "price": "$279", "timestamp": 300, "url": "/carrito?add=789" },
+    { "id": 4, "name": "Pendientes Cosmos", "image": "cosmos.jpg", "price": "$229", "timestamp": 400, "url": "/carrito?add=321" },
+    { "id": 5, "name": "Anillo Estrella Fugaz", "image": "estrella_fugaz.jpg", "price": "$199", "timestamp": 500, "url": "/carrito?add=654" },
+    { "id": 6, "name": "Brazalete Galaxia", "image": "galaxia.jpg", "price": "$299", "timestamp": 600, "url": "/carrito?add=987" },
+    { "id": 7, "name": "Colgante Nebulosa", "image": "nebulosa.jpg", "price": "$269", "timestamp": 700, "url": "/carrito?add=159" }
   ];
 
-  // --- RENDERIZAR LISTA DE PRODUCTOS ---
-  const list = document.getElementById("productList");
-  syncData.forEach(item => {
-    const div = document.createElement("div");
-    div.className = "list-group-item product-card";
-    div.dataset.id = item.id;
-    div.innerHTML = `
-      <div class="d-flex align-items-center">
-        <img src="${item.image}" class="mr-3 rounded" width="60">
-        <div>
-          <h6 class="mb-1">${item.name}</h6>
-          <p class="mb-1">$${item.price.toLocaleString("es-CL")}</p>
-          <button class="btn btn-sm btn-outline-primary mr-2" onclick="goToTime(${item.start})">Ver en video</button>
-          <button class="btn btn-sm btn-primary" onclick="addToCart('${item.name}')">Agregar al carrito</button>
-        </div>
-      </div>
-    `;
-    list.appendChild(div);
+  const iframe = document.getElementById('vimeo-player');
+  const player = new Vimeo.Player(iframe);
+
+  // Escuchar tiempo del video y mostrar popups
+  player.on('timeupdate', function(data) {
+    const current = Math.floor(data.seconds);
+    productMarkers.forEach(p => {
+      if (current === p.timestamp && !p.shown) {
+        showProductPopup(p);
+        p.shown = true;
+      }
+    });
   });
 
-  let player;
-  let interval;
+  // Mostrar pop-up
+  function showProductPopup(product) {
+    const container = document.getElementById("product-popup-container");
+    const div = document.createElement("div");
+    div.className = "popup-product";
+    div.innerHTML = `
+      <img src="${product.image}" width="80"><br>
+      <strong>${product.name}</strong><br>
+      ${product.price}<br>
+      <a href="${product.url}">Agregar al carrito</a>
+    `;
+    container.appendChild(div);
+    setTimeout(() => container.removeChild(div), 6000);
+  }
 
-  // --- CREAR PLAYER DE YOUTUBE ---
-  function onYouTubeIframeAPIReady() {
-    player = new YT.Player('player', {
-      videoId: 'ZpRxMx1rIGQ', // ✅ VIDEO DE PRUEBA OFICIAL DE YOUTUBE
-      playerVars: {
-        rel: 0,
-        controls: 1,
-        modestbranding: 1,
-        fs: 0
-      },
-      events: {
-        'onReady': onPlayerReady,
-        'onStateChange': onPlayerStateChange
+  // Botón "Ver todos los productos"
+  const toggleBtn = document.getElementById('toggle-product-list-btn');
+  const productList = document.getElementById('full-product-list');
+  if (toggleBtn && productList) {
+    toggleBtn.addEventListener('click', () => {
+      productList.classList.toggle('hidden');
+      if (!productList.classList.contains('loaded')) {
+        productMarkers.forEach(p => {
+          const item = document.createElement("div");
+          item.className = "product-card";
+          item.innerHTML = `
+            <img src="${p.image}" width="100"><br>
+            ${p.name}<br>
+            <button class="jump-btn" data-timestamp="${p.timestamp}">Ir al minuto</button>
+          `;
+          productList.appendChild(item);
+        });
+        productList.classList.add('loaded');
       }
     });
   }
 
-  // --- PLAYER LISTO ---
-  function onPlayerReady(event) {
-    console.log("✅ Player de YouTube cargado correctamente.");
-  }
-
-  // --- CONTROL DE REPRODUCCIÓN ---
-  function onPlayerStateChange(event) {
-    if (event.data === YT.PlayerState.PLAYING) {
-      clearInterval(interval);
-      interval = setInterval(checkTime, 500);
-    } else {
-      clearInterval(interval);
-    }
-  }
-
-  // --- MOSTRAR / OCULTAR PRODUCTOS SEGÚN TIEMPO ---
-  function checkTime() {
-    const current = player.getCurrentTime();
-    syncData.forEach(item => {
-      const card = document.querySelector(`[data-id="${item.id}"]`);
-      if (current >= item.start && current <= item.end) {
-        card.classList.add("visible");
-      } else {
-        card.classList.remove("visible");
+  // Botón flotante móvil
+  const floatBtn = document.getElementById("floating-products-button");
+  const floatPanel = document.getElementById("floating-product-panel");
+  if (floatBtn && floatPanel) {
+    floatBtn.addEventListener('click', () => {
+      floatPanel.classList.toggle('hidden');
+      if (!floatPanel.classList.contains('loaded')) {
+        productMarkers.forEach(p => {
+          const item = document.createElement("div");
+          item.className = "product-card";
+          item.innerHTML = `
+            <img src="${p.image}" width="100"><br>
+            ${p.name}<br>
+            <button class="jump-btn" data-timestamp="${p.timestamp}">Ir al minuto</button>
+          `;
+          floatPanel.appendChild(item);
+        });
+        floatPanel.classList.add('loaded');
       }
     });
   }
 
-  // --- FUNCIONES AUXILIARES ---
-  function goToTime(seconds) {
-    if (player && player.seekTo) {
-      player.seekTo(seconds, true);
-      player.playVideo();
+  // Saltar en el video
+  document.body.addEventListener("click", function (e) {
+    if (e.target.classList.contains("jump-btn")) {
+      const time = parseInt(e.target.getAttribute("data-timestamp"));
+      player.setCurrentTime(time);
     }
-  }
+  });
 
-  function addToCart(name) {
-    alert(`🛒 ${name} agregado al carrito`);
+  // Pantalla completa personalizada
+  const fsBtn = document.getElementById('fullscreen-btn');
+  const container = document.getElementById('video-container');
+fsBtn.addEventListener('click', () => {
+  if (container.requestFullscreen) {
+    container.requestFullscreen();
+  } else if (container.webkitRequestFullscreen) {
+    container.webkitRequestFullscreen();
+  } else if (container.msRequestFullscreen) {
+    container.msRequestFullscreen();
   }
+});
+});
+
+let lastTime = 0;
+player.on('timeupdate', function(data) {
+  const current = Math.floor(data.seconds);
+  if (current < lastTime) {
+    productMarkers.forEach(p => p.shown = false);
+  }
+  lastTime = current;
+  productMarkers.forEach(p => {
+    if (current === p.timestamp && !p.shown) {
+      showProductPopup(p);
+      p.shown = true;
+    }
+  });
+});
+
 </script>
+
 
 </body>
 </html>
